@@ -186,7 +186,7 @@ public class ListActivity extends AppCompatActivity {
                 dialog.show();
 
                 break;
-            case R.id.priprema_about:
+            case R.id.about:
 
                 AlertDialog alertDialog = new AboutDialog(this).prepareDialog();
                 alertDialog.show();

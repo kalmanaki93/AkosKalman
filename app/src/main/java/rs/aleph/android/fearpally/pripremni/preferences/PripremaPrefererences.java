@@ -6,7 +6,7 @@ import android.preference.PreferenceFragment;
 import android.support.v4.app.NavUtils;
 import android.view.MenuItem;
 
-import rs.aleph.android.fearpally.R;
+//import rs.aleph.android.fearpally.R;
 //import rs.aleph.android.fearpally.activities.SettingsActivity;
 
 /**
@@ -45,7 +45,7 @@ public class PripremaPrefererences extends PreferenceActivity {
             super.onCreate(savedInstanceState);
 
             // Load the preferences from an XML resource
-            addPreferencesFromResource(R.xml.preferences);
+            //addPreferencesFromResource(R.xml.preferences);
         }
     }
 }

@@ -29,6 +29,7 @@ import com.j256.ormlite.android.apptools.OpenHelperManager;
 import java.sql.SQLException;
 import java.util.List;
 
+
 import rs.aleph.android.fearpally.R;
 import rs.aleph.android.fearpally.pripremni.db.ORMLightHelper;
 import rs.aleph.android.fearpally.pripremni.db.model.Prijava;
@@ -76,7 +77,7 @@ public class Detail extends AppCompatActivity {
             naziv.setText(p.getmNaziv());
             opis.setText(p.getmOpis());
             datum.setText(p.getmDatum());
-            stavkas.setText(p.getStavkas());
+            //stavkas.setText(p.getStavkas());
 
         } catch (SQLException e) {
             e.printStackTrace();
